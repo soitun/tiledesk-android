@@ -4,13 +4,16 @@ import android.util.Log;
 
 import org.chat21.android.ui.login.activities.ChatSplashActivity;
 
+import tiledesk.android.ui.login.activities.TiledeskSplashActivity;
+
 import static org.chat21.android.utils.DebugConstants.DEBUG_LOGIN;
 
 /**
  * Created by stefanodp91 on 21/12/17.
  */
 
-public class SplashActivity extends ChatSplashActivity {
+public class SplashActivity extends TiledeskSplashActivity {
+
 
     @Override
     protected Class<?> getTargetClass() {
@@ -20,6 +23,6 @@ public class SplashActivity extends ChatSplashActivity {
 
 //    @Override
 //    protected Intent getLoginIntent() {
-//        return new Intent(this, ChatLoginActivity.class);
+//        return new Intent(this, TiledeskLoginActivity.class);
 //    }
 }

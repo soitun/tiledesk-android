@@ -8,9 +8,164 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:77360455507:android:a4c622d8eb4037a3",
+        "android_client_info": {
+          "package_name": "chat21.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77360455507-k3n9ocsq3pdek7hgbrriop20oif3nbqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOUqTXdEx9k0AcQNO93eOW5QZ_BFqeMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:77360455507:android:363c6b98cc530d4d",
         "android_client_info": {
           "package_name": "chat21.android.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77360455507-k3n9ocsq3pdek7hgbrriop20oif3nbqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOUqTXdEx9k0AcQNO93eOW5QZ_BFqeMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77360455507:android:309ea8444a1a5e33",
+        "android_client_info": {
+          "package_name": "it.bpp.android.intranet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77360455507-k3n9ocsq3pdek7hgbrriop20oif3nbqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOUqTXdEx9k0AcQNO93eOW5QZ_BFqeMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77360455507:android:3d370bd66b02bd51",
+        "android_client_info": {
+          "package_name": "it.frontiere21.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77360455507-k3n9ocsq3pdek7hgbrriop20oif3nbqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOUqTXdEx9k0AcQNO93eOW5QZ_BFqeMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77360455507:android:3776be8be9b32f48",
+        "android_client_info": {
+          "package_name": "org.chat21.android.tilewidget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77360455507-k3n9ocsq3pdek7hgbrriop20oif3nbqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOUqTXdEx9k0AcQNO93eOW5QZ_BFqeMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77360455507:android:e99f7436dfd8671a",
+        "android_client_info": {
+          "package_name": "tiledesk.android"
         }
       },
       "oauth_client": [

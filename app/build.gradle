@@ -5,7 +5,7 @@ android {
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "chat21.android.demo"
+        applicationId "tiledesk.android"
         minSdkVersion 19
         targetSdkVersion 22
         versionCode 15
@@ -58,6 +58,8 @@ dependencies {
 
     // user dependencies
     compile 'com.github.bumptech.glide:glide:3.8.0' // image loading
+
+    compile 'org.apache.httpcomponents:httpcore:4.3'
 
     // chat
     compile project(':chat')
