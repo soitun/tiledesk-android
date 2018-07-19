@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Chat21</string>
+    <string name="app_name">Tiledesk</string>
     <!--<string name="action_settings">Impostazioni</string>-->
 
     <string name="fragment_tab_home_direct_message_button_label">Seleziona un contatto</string>

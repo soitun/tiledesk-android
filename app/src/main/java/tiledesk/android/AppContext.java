@@ -1,4 +1,4 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import android.app.Application;
 import android.content.Context;
@@ -54,9 +54,9 @@ public class AppContext extends Application {
 
         // it creates the chat configurations
         ChatManager.Configuration mChatConfiguration =
-                new ChatManager.Configuration.Builder(getString(R.string.chat_firebase_appId))
-                        .firebaseUrl(getString(R.string.chat_firebase_url))
-                        .storageBucket(getString(R.string.chat_firebase_storage_bucket))
+                new ChatManager.Configuration.Builder(getString(tiledesk.android.R.string.chat_firebase_appId))
+                        .firebaseUrl(getString(tiledesk.android.R.string.chat_firebase_url))
+                        .storageBucket(getString(tiledesk.android.R.string.chat_firebase_storage_bucket))
                         .build();
 
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();

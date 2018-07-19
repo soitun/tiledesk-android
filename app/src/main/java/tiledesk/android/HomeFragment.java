@@ -1,4 +1,4 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,10 +23,10 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_tab_home, container, false);
+        View rootView = inflater.inflate(tiledesk.android.R.layout.fragment_tab_home, container, false);
 
         // direct message activity
-        Button mStartDirectMessage = (Button) rootView.findViewById(R.id.direct_message);
+        Button mStartDirectMessage = (Button) rootView.findViewById(tiledesk.android.R.id.direct_message);
         mStartDirectMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

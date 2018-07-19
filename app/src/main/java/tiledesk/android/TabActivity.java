@@ -1,4 +1,4 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -36,19 +36,19 @@ public class TabActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tab);
+        setContentView(tiledesk.android.R.layout.activity_tab);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(tiledesk.android.R.id.toolbar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.view_pager);
+        mViewPager = (ViewPager) findViewById(tiledesk.android.R.id.view_pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = (TabLayout) findViewById(tiledesk.android.R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
         ChatUI.getInstance().processRemoteNotification(getIntent());
@@ -104,15 +104,15 @@ public class TabActivity extends AppCompatActivity {
             tabsMap = new HashMap<>();
 
             // create a map with all tabs
-            tabsMap.put(getString(R.string.tag_home),
-                    new Item(getString(R.string.tab_home_title), 1));
-            tabsMap.put(getString(R.string.tag_chat),
-                    new Item(getString(R.string.tab_chat_title), 1));
-            tabsMap.put(getString(R.string.tag_profile),
-                    new Item(getString(R.string.tab_profile_title), 1));
+            tabsMap.put(getString(tiledesk.android.R.string.tag_home),
+                    new Item(getString(tiledesk.android.R.string.tab_home_title), 1));
+            tabsMap.put(getString(tiledesk.android.R.string.tag_chat),
+                    new Item(getString(tiledesk.android.R.string.tab_chat_title), 1));
+            tabsMap.put(getString(tiledesk.android.R.string.tag_profile),
+                    new Item(getString(tiledesk.android.R.string.tab_profile_title), 1));
 
             // retrieve tab tags
-            tabsTags = getResources().getStringArray(R.array.tab_tags);
+            tabsTags = getResources().getStringArray(tiledesk.android.R.array.tab_tags);
             tabsCount = tabsTags.length; // count tab tags
         }
 
@@ -121,11 +121,11 @@ public class TabActivity extends AppCompatActivity {
             // getItem is called to instantiate the fragment for the given page.
 
             String tabTag = getTagByPosition(position);
-            if (tabTag.equals(getString(R.string.tag_home))) {
+            if (tabTag.equals(getString(tiledesk.android.R.string.tag_home))) {
                 return HomeFragment.newInstance();
-            } else if (tabTag.equals(getString(R.string.tag_chat))) {
+            } else if (tabTag.equals(getString(tiledesk.android.R.string.tag_chat))) {
                 return ChatFragment.newInstance();
-            } else if (tabTag.equals(getString(R.string.tag_profile))) {
+            } else if (tabTag.equals(getString(tiledesk.android.R.string.tag_profile))) {
                 return UserProfileFragment.newInstance();
             } else {
                 // default load home

@@ -1,4 +1,4 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -68,17 +68,17 @@ public class UserProfileFragment extends Fragment implements ContactListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_user_profile, container, false);
+        View view = inflater.inflate(tiledesk.android.R.layout.fragment_user_profile, container, false);
 
         setHasOptionsMenu(false); // disable fragment option menu
 
-        mProfilePicture = view.findViewById(R.id.profile_picture);
-        mFullName = view.findViewById(R.id.fullname);
-        mEmail = view.findViewById(R.id.email);
-        mUserId = view.findViewById(R.id.userid);
-        mAppName = view.findViewById(R.id.app_name);
-        mAppVersion = view.findViewById(R.id.app_version);
-        mLogout = view.findViewById(R.id.logout);
+        mProfilePicture = view.findViewById(tiledesk.android.R.id.profile_picture);
+        mFullName = view.findViewById(tiledesk.android.R.id.fullname);
+        mEmail = view.findViewById(tiledesk.android.R.id.email);
+        mUserId = view.findViewById(tiledesk.android.R.id.userid);
+        mAppName = view.findViewById(tiledesk.android.R.id.app_name);
+        mAppVersion = view.findViewById(tiledesk.android.R.id.app_version);
+        mLogout = view.findViewById(tiledesk.android.R.id.logout);
 
         loggedUser = ChatManager.getInstance().getLoggedUser();
 
@@ -105,7 +105,7 @@ public class UserProfileFragment extends Fragment implements ContactListener {
         updateUserUI(loggedUser);
 
         // app name
-        mAppName.setText(getString(R.string.app_name));
+        mAppName.setText(getString(tiledesk.android.R.string.app_name));
 
         // app version
         int versionCode = ChatUtils.getVersionCode(getActivity().getApplicationContext());
@@ -144,7 +144,7 @@ public class UserProfileFragment extends Fragment implements ContactListener {
         // profile picture
         Glide.with(getActivity().getApplicationContext())
                 .load(user.getProfilePictureUrl())
-                .placeholder(R.drawable.ic_person_avatar)
+                .placeholder(tiledesk.android.R.drawable.ic_person_avatar)
                 .bitmapTransform(new CropCircleTransformation(getActivity().getApplicationContext()))
                 .into(mProfilePicture);
 

@@ -1,4 +1,4 @@
-package chat21.android.demo.usageui;
+package tiledesk.android.usageui;
 
 import org.chat21.android.ui.ChatUI;
 

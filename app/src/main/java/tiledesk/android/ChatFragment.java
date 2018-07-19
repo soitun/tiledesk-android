@@ -1,4 +1,4 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -43,12 +43,12 @@ public class ChatFragment extends Fragment /*implements MyPresenceListener */{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_tab_chat, container, false);
+        View rootView = inflater.inflate(tiledesk.android.R.layout.fragment_tab_chat, container, false);
 
         setHasOptionsMenu(false); // disable fragment option menu
 
         // starts the chat inside a container
-        ChatUI.getInstance().openConversationsListFragment(getChildFragmentManager(), R.id.container);
+        ChatUI.getInstance().openConversationsListFragment(getChildFragmentManager(), tiledesk.android.R.id.container);
 
         return rootView;
     }
