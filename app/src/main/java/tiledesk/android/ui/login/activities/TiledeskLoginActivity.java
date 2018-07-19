@@ -101,8 +101,8 @@ public class TiledeskLoginActivity extends AppCompatActivity implements View.OnC
         vLogin = (Button) findViewById(R.id.login);
         vLogin.setOnClickListener(this);
 
-        vSignUp = (Button) findViewById(R.id.signup);
-        vSignUp.setOnClickListener(this);
+//        vSignUp = (Button) findViewById(R.id.signup);
+//        vSignUp.setOnClickListener(this);
 
         vEmail = (EditText) findViewById(R.id.email);
         vPassword = (EditText) findViewById(R.id.password);
