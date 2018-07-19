@@ -26,17 +26,17 @@ public class HomeFragment extends Fragment {
         View rootView = inflater.inflate(tiledesk.android.R.layout.fragment_tab_home, container, false);
 
         // direct message activity
-        Button mStartDirectMessage = (Button) rootView.findViewById(tiledesk.android.R.id.direct_message);
-        mStartDirectMessage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                ContactsFirestoreSynchronizer ch = new ContactsFirestoreSynchronizer();
-//                ch.getAllContacts();
-
-                Intent intent = new Intent(getActivity().getApplicationContext(), ContactListActivity.class);
-                startActivity(intent);
-            }
-        });
+//        Button mStartDirectMessage = (Button) rootView.findViewById(tiledesk.android.R.id.direct_message);
+//        mStartDirectMessage.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                ContactsFirestoreSynchronizer ch = new ContactsFirestoreSynchronizer();
+////                ch.getAllContacts();
+//
+//                Intent intent = new Intent(getActivity().getApplicationContext(), ContactListActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 //        // start the chat with an activity
 //        Button mStartChatActivity = (Button) rootView.findViewById(R.id.start_chat_activity);

@@ -14,13 +14,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/direct_message"
-            android:theme="@style/AppTheme.Button.Flat"
+        <!--<Button-->
+            <!--android:id="@+id/direct_message"-->
+            <!--android:theme="@style/AppTheme.Button.Flat"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/fragment_tab_home_direct_message_button_label" />-->
+
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/fragment_tab_home_direct_message_button_label" />
-
+            android:src="@drawable/ic_logo_app_big" />
         <!--<Button-->
             <!--android:id="@+id/start_chat_activity"-->
             <!--android:layout_width="match_parent"-->
