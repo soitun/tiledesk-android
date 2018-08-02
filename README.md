@@ -20,7 +20,7 @@ With Chat21 Android SDK you can:
 
 ### Google Play Demo
 
-[![get_it](http://evolvex.it/mobyx/images/nav/gplay-blk.png)](https://play.google.com/store/apps/details?id=chat21.android.demo)
+[![get_it](http://evolvex.it/mobyx/images/nav/gplay-blk.png)](https://play.google.com/store/apps/details?id=tiledesk.android)
 
 <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen1.png" width="250"> | <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen2.png" width="250"> | <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen3.png" width="250">
 
