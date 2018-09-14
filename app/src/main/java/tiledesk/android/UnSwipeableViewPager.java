@@ -1,0 +1,35 @@
+package tiledesk.android;
+
+/**
+ * Created by andrealeo on 28/08/18.
+ */
+
+        import android.content.Context;
+        import android.support.v4.view.ViewPager;
+        import android.util.AttributeSet;
+        import android.view.MotionEvent;
+
+/**
+ * Custom viewpager with the swipe disabled
+ */
+public class UnSwipeableViewPager extends ViewPager {
+
+    public UnSwipeableViewPager(Context context) {
+        super(context);
+    }
+
+    public UnSwipeableViewPager(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return false;
+    }
+
+    @Override
+
+    public boolean onInterceptTouchEvent(MotionEvent event) {
+        return false;
+    }
+}

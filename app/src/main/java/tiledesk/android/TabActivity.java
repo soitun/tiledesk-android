@@ -31,7 +31,7 @@ public class TabActivity extends AppCompatActivity {
     /**
      * The {@link ViewPager} that will host the section contents.
      */
-    private ViewPager mViewPager;
+    private UnSwipeableViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class TabActivity extends AppCompatActivity {
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(tiledesk.android.R.id.view_pager);
+        mViewPager = (UnSwipeableViewPager) findViewById(tiledesk.android.R.id.view_pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(tiledesk.android.R.id.tabs);
@@ -104,8 +104,8 @@ public class TabActivity extends AppCompatActivity {
             tabsMap = new HashMap<>();
 
             // create a map with all tabs
-            tabsMap.put(getString(tiledesk.android.R.string.tag_home),
-                    new Item(getString(tiledesk.android.R.string.tab_home_title), 1));
+//            tabsMap.put(getString(tiledesk.android.R.string.tag_home),
+//                    new Item(getString(tiledesk.android.R.string.tab_home_title), 1));
             tabsMap.put(getString(tiledesk.android.R.string.tag_chat),
                     new Item(getString(tiledesk.android.R.string.tab_chat_title), 1));
             tabsMap.put(getString(tiledesk.android.R.string.tag_profile),
@@ -121,9 +121,10 @@ public class TabActivity extends AppCompatActivity {
             // getItem is called to instantiate the fragment for the given page.
 
             String tabTag = getTagByPosition(position);
-            if (tabTag.equals(getString(tiledesk.android.R.string.tag_home))) {
-                return HomeFragment.newInstance();
-            } else if (tabTag.equals(getString(tiledesk.android.R.string.tag_chat))) {
+//            if (tabTag.equals(getString(tiledesk.android.R.string.tag_home))) {
+//                return HomeFragment.newInstance();
+//            } else if (tabTag.equals(getString(tiledesk.android.R.string.tag_chat))) {
+            if (tabTag.equals(getString(tiledesk.android.R.string.tag_chat))) {
                 return ChatFragment.newInstance();
             } else if (tabTag.equals(getString(tiledesk.android.R.string.tag_profile))) {
                 return UserProfileFragment.newInstance();
