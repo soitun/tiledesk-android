@@ -249,7 +249,7 @@ public class TiledeskLoginActivity extends AppCompatActivity implements View.OnC
                         ChatUI.getInstance().setContext(TiledeskLoginActivity.this);
                         Log.i(TAG, "ChatUI has been initialized with success");
 
-                        ChatUI.getInstance().enableGroups(true);
+                        ChatUI.getInstance().enableGroups(false);
 
                         // set on new conversation click listener
                         // final IChatUser support = new ChatUser("support", "Chat21 Support");

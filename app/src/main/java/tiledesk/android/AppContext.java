@@ -77,7 +77,7 @@ public class AppContext extends Application {
 //            ChatManager.getInstance().initContactsSyncronizer();
 
             ChatUI.getInstance().setContext(instance);
-            ChatUI.getInstance().enableGroups(true);
+            ChatUI.getInstance().enableGroups(false);
 
             ChatUI.getInstance().setOnMessageClickListener(new OnMessageClickListener() {
                 @Override
