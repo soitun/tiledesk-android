@@ -1,10 +1,11 @@
-package chat21.android.demo;
+package tiledesk.android;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import chat21.android.user.models.ChatUser;
-import chat21.android.user.models.IChatUser;
+import org.chat21.android.core.users.models.ChatUser;
+import org.chat21.android.core.users.models.IChatUser;
+
 
 /**
  * Created by stefanodp91 on 25/10/17.
@@ -14,32 +15,15 @@ import chat21.android.user.models.IChatUser;
 
 public class DummyDataManager {
 
-    private static final int LOGGED_USER_ID = 0;
+    private static final int CONTACT_ID = 3;
 
-    public static IChatUser getLoggedUser() {
+    public static IChatUser getContact() {
         PersonGenerator generator = new PersonGenerator();
 
-        IChatUser loggedUser = convertPersonToChatUser(LOGGED_USER_ID,
-                generator.getPeople().get(LOGGED_USER_ID));
+        IChatUser loggedUser = convertPersonToChatUser(CONTACT_ID,
+                generator.getPeople().get(CONTACT_ID));
 
         return loggedUser;
-    }
-
-    public static List<IChatUser> getContacts() {
-        List<IChatUser> contacts = new ArrayList<>();
-
-        PersonGenerator generator = new PersonGenerator();
-
-        // starts from the second item.
-        // the first one is the logged user
-        for (int i = 1; i < generator.getPeople().size(); i++) {
-
-            IChatUser chatUser = convertPersonToChatUser(i, generator.getPeople().get(i));
-
-            contacts.add(chatUser);
-        }
-
-        return contacts;
     }
 
     private static IChatUser convertPersonToChatUser(int counter, PersonGenerator.Person person) {

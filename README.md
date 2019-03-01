@@ -7,9 +7,9 @@ With Chat21 Android SDK you can:
 - Send a direct message to a user (one to one message)
 - Emoji support
 - Attach pictures support
-- Create group chat 
+- Create group chat
 - View the messages history
-- View the group list 
+- View the group list
 - The read receipts feature allows your users to see when a message has been sent, delivered and read
 - Conversations list view with the last messages sent (like Whatsapp)
 - With the Presense Manager you can view when a user is online or offline and the inactivity period
@@ -20,7 +20,7 @@ With Chat21 Android SDK you can:
 
 ### Google Play Demo
 
-[![get_it](http://evolvex.it/mobyx/images/nav/gplay-blk.png)](https://play.google.com/store/apps/details?id=chat21.android.demo)
+[![get_it](http://evolvex.it/mobyx/images/nav/gplay-blk.png)](https://play.google.com/store/apps/details?id=tiledesk.android)
 
 <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen1.png" width="250"> | <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen2.png" width="250"> | <img src="https://github.com/chat21/chat21-android-demo/blob/master/resources/screen3.png" width="250">
 
@@ -29,6 +29,6 @@ With Chat21 Android SDK you can:
 
 ## Add Chat21 SDK to your project
 
-Follow the [readme](https://github.com/chat21/chat21-android-sdk/blob/master/README.md) to add the Chat21 SDK to your project 
+Follow the [readme](https://github.com/chat21/chat21-android-sdk/blob/master/README.md) to add the Chat21 SDK to your project
 
 More details at http://www.chat21.org/
