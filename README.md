@@ -1,8 +1,11 @@
-# Chat21 SDK Demo 
+# Tiledesk Android
+
+Tiledesk Android App allows agents to chat with visitors directly from their Android device. Download Tiledesk Android app here : https://play.google.com/store/apps/details?id=tiledesk.android
+Tiledesk Android app is built on top of Chat21 Android SDK framework. More info abount Chat21 Android SDK here : https://github.com/chat21/chat21-android-sdk/
 
 ## Features
 
-With Chat21 Android SDK you can:
+With Tiledesk Android App you can:
 
 - Send a direct message to a user (one to one message)
 - Emoji support
