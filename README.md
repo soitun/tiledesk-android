@@ -1,3 +1,7 @@
+> ***🚀  Do you want to install Tiledesk on your server with just one click?***
+> 
+> ***Use [Docker Compose Tiledesk installation](https://github.com/Tiledesk/tiledesk-deployment/blob/master/docker-compose/README.md) guide***
+
 # Tiledesk Android
 
 Tiledesk Android App allows agents to chat with visitors directly from their Android device. Download Tiledesk Android app here : https://play.google.com/store/apps/details?id=tiledesk.android
